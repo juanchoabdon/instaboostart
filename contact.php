@@ -28,7 +28,6 @@ if($_POST)
     //Sanitize input data using PHP filter_var().
     $user_Name        = filter_var($_POST["userName"], FILTER_SANITIZE_STRING);
     $user_Email       = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
-    $user_Phone =  $_POST["userTelephone"];
     //$user_Subject =  $_POST["userSubject"];
     $user_Message     = filter_var($_POST["userMessage"], FILTER_SANITIZE_STRING);
 

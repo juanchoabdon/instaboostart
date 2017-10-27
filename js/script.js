@@ -34,9 +34,9 @@ $("#submit_btn").click(function() {
     //everything looks good! proceed...
     if (proceed) {
         //data to be sent to server
-        post_data = { 'userName': user_name, 'userEmail': user_email, 'userTelephone': user_telephone, 'userMessage': user_message };
+        post_data = { 'userName': user_name, 'userEmail': user_email,'userMessage': user_message };
 
-        //Ajax post data to server
+        //Ajax post data to server 
         $.post('contact.php', post_data, function(response) {
 
             //load json data from server and output message

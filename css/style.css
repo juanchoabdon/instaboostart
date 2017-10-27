@@ -2444,16 +2444,18 @@ textarea {
 }
 
 .page_content_company_qualities .side_section {
-    left: 0;
-    background: url("../img/side_section_img/side_section_img_1.jpg");
-    background-position: left center;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 50%;
-    background-repeat: no-repeat;
+  left: 0;
+  background: url("../img/back1.jpg"); 
+  background-position: left center;
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  top: 0;
+  background-size: contain;
+  bottom: 0;
+  height: 100%;
+  width: 50%;
+  background-repeat: no-repeat;
 }
 
 .page_content_company_qualities .page_content_company_qualities_inner {
@@ -2633,24 +2635,6 @@ textarea {
     line-height: 27px;
     word-spacing: 2px;
 }
-
-
-#overlay {
- position: fixed; /* Sit on top of the page content */
- display: none; /* Hidden by default */
- width: 100%; /* Full width (cover the whole page) */
- height: 100%; /* Full height (cover the whole page) */
- top: 0;
- left: 0;
- right: 0;
- bottom: 0;
- background-color: rgba(0,0,0,0.5); /* Black background with opacity */
- z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
- cursor: pointer; /* Add a pointer on hover */
-}
-
-
-/* Page Content Hire Section */
 
 .page_content_hire_section {
     position: relative;
